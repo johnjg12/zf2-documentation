@@ -543,7 +543,7 @@ And all of this is really not that much code. Modify your ``WriteController`` to
                     try {
                         $this->postService->savePost($this->postForm->getData());
 
-                        return $this->redirect()->toRoute('post');
+                        return $this->redirect()->toRoute('blog');
                     } catch (\Exception $e) {
                         // Some DB Error happened, log it and let the user know
                     }
