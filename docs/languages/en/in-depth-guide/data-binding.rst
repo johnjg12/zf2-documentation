@@ -229,7 +229,7 @@ the view, too.
    :linenos:
    :emphasize-lines: 9
 
-    <!-- Filename: /module/Blog/view/blog/write/add.phtml -->
+    <!-- Filename: /module/Blog/view/blog/write/edit.phtml -->
     <h1>WriteController::editAction()</h1>
     <?php
     $form = $this->form;
